@@ -2,7 +2,7 @@
 
 A simple file management API built with Express, MongoDB, Redis, Bull, and Node.js.
 
-## Requirements
+# Requirements
 
 ### Applications
 
@@ -31,16 +31,16 @@ The required environment variables should be stored in a file named `.env` and e
 + Clone this repository and switch to the cloned repository's directory.
 + Install the packages using `yarn install` or `npm install`.
 
-## Usage
+### Usage
 
 Start the Redis and MongoDB services on your system and run `yarn start-server` or `npm run start-server`.
 
-## Tests
+### Tests
 
 + Create a separate `.env` file for the tests named `.env.test` and store the value of the environment variables for the testing event in it.
 + Run `yarn test` or `npm run test` to execute the E2E tests.
 
-## Authors
+# Authors
 
 + PROSPER ATU
 + IDONGESIT EKANEM
